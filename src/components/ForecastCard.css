@@ -1,0 +1,66 @@
+.forecast-card {
+  background: linear-gradient(135deg, #1e293b 0%, #334155 100%);
+  padding: 20px;
+  border-radius: 12px;
+  text-align: center;
+  transition: all 0.3s;
+  border: 1px solid #475569;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.forecast-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 25px rgba(139, 92, 246, 0.3);
+  border-color: #8b5cf6;
+  background: linear-gradient(135deg, #1e293b 0%, #3b4b63 100%);
+}
+
+.forecast-date {
+  font-weight: 600;
+  color: #c7d2fe;
+  margin-bottom: 10px;
+  font-size: 0.85rem;
+  text-transform: capitalize;
+}
+
+.forecast-icon {
+  width: 80px;
+  height: 80px;
+  margin: 10px 0;
+}
+
+.forecast-temp {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #a78bfa;
+  margin: 10px 0;
+}
+
+.forecast-description {
+  font-size: 0.9rem;
+  color: #94a3b8;
+  text-transform: capitalize;
+  margin-bottom: 15px;
+  font-weight: 500;
+}
+
+.forecast-details {
+  margin-top: 15px;
+  padding-top: 15px;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  text-align: left;
+}
+
+.forecast-detail {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 0;
+  font-size: 0.85rem;
+  color: #cbd5e1;
+}
+
+.detail-icon {
+  font-size: 1.2rem;
+  min-width: 24px;
+}
